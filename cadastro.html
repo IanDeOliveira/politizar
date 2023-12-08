@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <div class="conteudo-cabecalho">
+            <h1><img src="logotipo.png" alt="logotipo Politizar" height="85px" width="235px"></h1>
+            <nav>
+                <ul>
+                    <li><a href="http://localhost/ProjetoPolitizar/login.php">LOGIN</a></li>
+                    <li><a href="file:///C:/xampp/htdocs/ProjetoPolitizar/cadastro.html">CADASTRE-SE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="apresentacao">
+            <h1 class="subtitulos">Cadastre-se</h1>
+            <p> Efetue seu cadastro para ter acesso aos nossos artigos publicados e para poder enviar o seu artigo.</p>
+        </div>
+
+        <div id="formulario-cadastro">
+            <form action="cadastro_processado.php" method="POST">
+                <!-- Formulário de cadastro -->
+                <div class="campo">
+                    <label for="Nome"><strong>Nome</strong></label>
+                    <input type="text" name="Nome" id="Nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="Sobrenome" id="Sobrenome">
+                </div>
+
+                <div class="campo">
+                    <label for="Cpf"><strong>CPF</strong></label>
+                    <input type="text" name="Cpf" id="Cpf" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="campo">
+                    <label for="Senha"><strong>Senha</strong></label>
+                    <input type="password" name="Senha" id="Senha" required>
+                </div>
+
+                <button class="botao2" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img src="logotipo.png" alt="logotipo Politizar" height="85px" width="235px">
+        <p style="color: aliceblue;">Nome da rua, 000 - Nome do Bairro</p>
+        <p style="color: aliceblue;">Porto Alegre (RS)</p>
+    </footer>
+</body>
+</html>

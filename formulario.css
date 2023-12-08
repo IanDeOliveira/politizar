@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: Helvetica, sans-serif;
+    color: #041c34;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 238px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#subtitulo {
+    color: black;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    padding: 10px 0;
+    text-align: left;
+    margin-left: 238px;
+    padding-bottom: 20px;
+}
+
+.pub {
+    background-color: #dcdcdc;
+}
+
+#formulario {
+    margin-left: 238px;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+#formulario-login {
+    margin-left: 238px;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+#formulario-cadastro {
+    margin-left: 238px;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #041c34;
+    display: block;
+}
+
+fieldset .grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1.5px solid #041c34;
+    box-shadow: 1px 1px 1px #041c34;
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+#check {
+    display: inline-block;
+}
+
+.campo input:focus {
+    background-color: #dcdcdc;
+}
+
+.botao1 {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    background-color: #041c34;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    font-size: 15px;
+    color: #dcdcdc;
+    padding: 10px 0;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+.botao2 {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    background-color: #041c34;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    font-size: 15px;
+    color: #dcdcdc;
+    padding: 10px 0;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+.botao1:hover {
+    width: 121px;
+    height: 36px;
+    background-color: #0c4ea0;
+}
+
+.botao2:hover {
+    width: 121px;
+    height: 36px;
+    background-color: #0c4ea0;
+}
